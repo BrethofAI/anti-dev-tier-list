@@ -113,6 +113,22 @@ the marketing and the practice cannot both be true.
   with no recourse, on a product priced at the enterprise level. The
   combination of paid status + opacity + no refund is the trifecta.
 
+### Cloudflare WAF / Bot Fight Mode false-positive lockouts
+
+Cloudflare's Bot Fight Mode and certain WAF rule packs aggressively
+challenge legitimate developers, scrapers complying with `robots.txt`,
+and accessibility tooling. Hidden in many "free tier" defaults of
+sites Cloudflare protects.
+
+- **Receipts:** [HN thread: Cloudflare blocking 'curl' / Tor users (2024)](https://news.ycombinator.com/item?id=39271031) · [Cloudflare's own challenge-page docs](https://developers.cloudflare.com/waf/tools/challenge-passage/) · widely-reported false positives on Wayback Machine and assistive-tech browsers.
+- **Why S:** Single point of failure for a large fraction of the
+  public web. Asymmetric power: site owners enable it once, every
+  developer who needs to consume the site pays the cost forever.
+
+---
+
+## Tier A — Very Harmful
+
 ### OpenAI: charity → for-profit conversion (2015 mission → 2026 reality)
 
 OpenAI raised on an explicit non-profit charter in 2015
@@ -134,26 +150,12 @@ on OpenAI's growth.
 
 - **Receipts:** Side-by-side comparison in the
   [awesome-ai-mine OpenAI entry](https://github.com/BrethofAI/awesome-ai-mine#openai-api--api-services-agreement-2025).
-- **Why S:** Sets the precedent. Charity-to-for-profit pivots used to
-  be a scandal; if OpenAI normalises it, every "AI for humanity"
-  pitch raised against the next AGI cycle is on the clock. Trust
-  destruction at industry scale.
-
-### Cloudflare WAF / Bot Fight Mode false-positive lockouts
-
-Cloudflare's Bot Fight Mode and certain WAF rule packs aggressively
-challenge legitimate developers, scrapers complying with `robots.txt`,
-and accessibility tooling. Hidden in many "free tier" defaults of
-sites Cloudflare protects.
-
-- **Receipts:** [HN thread: Cloudflare blocking 'curl' / Tor users (2024)](https://news.ycombinator.com/item?id=39271031) · [Cloudflare's own challenge-page docs](https://developers.cloudflare.com/waf/tools/challenge-passage/) · widely-reported false positives on Wayback Machine and assistive-tech browsers.
-- **Why S:** Single point of failure for a large fraction of the
-  public web. Asymmetric power: site owners enable it once, every
-  developer who needs to consume the site pays the cost forever.
-
----
-
-## Tier A — Very Harmful
+- **Why A:** Sets the precedent. Charity-to-for-profit pivots used
+  to be a scandal; if OpenAI normalises it, every "AI for humanity"
+  pitch raised against the next AGI cycle is on the clock. The harm
+  here is structural and forward-looking — distinct from the direct
+  cash-extraction Tier S patterns, but trust-destroying at industry
+  scale.
 
 ### Heroku Free Tier shutdown (Nov 2022)
 
