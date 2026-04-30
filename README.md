@@ -93,6 +93,52 @@ Java service pays for 1,000 seats.
 - **Why S:** Forces enterprises onto OpenJDK or migration. Punishes
   the install base for Oracle's revenue targets.
 
+### Google AI Ultra (USD 300/month) bans paying customers without explanation
+
+Top consumer tier of Google's AI subscription. Includes Antigravity
+(Google's agentic IDE). Documented pattern from early 2026:
+subscribers receiving **permanent ("life") bans** with no reason
+supplied, no human appeal, and no pro-rata refund on cancellation.
+Triggers appear to include unusual working hours, sustained heavy
+use of agentic features, and prompt patterns flagged by undocumented
+classifiers. Marketed with "enterprise security" language while
+operating an automated ban-bot tuned to behavioural fingerprints —
+the marketing and the practice cannot both be true.
+
+- **Receipts:** Volume of YouTube + Reddit reports peaked Feb 2026.
+  Search "Google AI Ultra ban" or "Antigravity banned" for the
+  pattern. Direct user data point documented by Brethof AI
+  ([awesome-ai-mine entry](https://github.com/BrethofAI/awesome-ai-mine#google-antigravity--antigravity-terms-of-service-)).
+- **Why S:** Top-tier paying customers losing access to their work
+  with no recourse, on a product priced at the enterprise level. The
+  combination of paid status + opacity + no refund is the trifecta.
+
+### OpenAI: charity → for-profit conversion (2015 mission → 2026 reality)
+
+OpenAI raised on an explicit non-profit charter in 2015
+([Introducing OpenAI](https://openai.com/index/introducing-openai/))
+promising AGI "for the benefit of humanity," "broadly distributed,"
+"value for everyone rather than shareholders." The 2018
+[Charter](https://openai.com/charter/) doubled down on
+"primary fiduciary duty to humanity" and "providing public goods."
+
+By 2024-2026 OpenAI has restructured into a for-profit Public
+Benefit Corporation, with the non-profit losing its controlling
+stake. Co-founder lawsuit
+([Musk v. Altman](https://storage.courtlistener.com/recap/gov.uscourts.cand.428589/gov.uscourts.cand.428589.1.0.pdf))
+alleges breach of charter; the Sep 2024 OpenAI statement
+([Why our structure must evolve](https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/))
+walks the original mission back. CEO Sam Altman, who took zero
+equity in the original non-profit, is now reported as a billionaire
+on OpenAI's growth.
+
+- **Receipts:** Side-by-side comparison in the
+  [awesome-ai-mine OpenAI entry](https://github.com/BrethofAI/awesome-ai-mine#openai-api--api-services-agreement-2025).
+- **Why S:** Sets the precedent. Charity-to-for-profit pivots used to
+  be a scandal; if OpenAI normalises it, every "AI for humanity"
+  pitch raised against the next AGI cycle is on the clock. Trust
+  destruction at industry scale.
+
 ### Cloudflare WAF / Bot Fight Mode false-positive lockouts
 
 Cloudflare's Bot Fight Mode and certain WAF rule packs aggressively
