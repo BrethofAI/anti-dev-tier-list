@@ -438,6 +438,9 @@ move it to **Recently improved** and credit the receipt.
 - **[awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt)** — Tools doing the right thing for AI agent users.
 - **[awesome-private-ai](https://github.com/BrethofAI/awesome-private-ai)** — Tools doing the right thing for user privacy.
 - **[awesome-ai-mine](https://github.com/BrethofAI/awesome-ai-mine)** — AI ToS / license analysis. Many candidate entries for this tier list live there too.
+- **[awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai)** — Local-AI tools that route around most of these anti-dev patterns.
+- **[awesome-linux-for-ai](https://github.com/BrethofAI/awesome-linux-for-ai)** — Linux distros that don't punish you for running real AI.
+- **[awesome-mcp-servers](https://github.com/BrethofAI/awesome-mcp-servers)** — MCP servers shipping the right defaults for developer workflows.
 
 ## License
 
