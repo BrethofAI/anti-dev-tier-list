@@ -2,7 +2,7 @@
 
 > S–F tier list of platforms, APIs, licenses, and policies ranked by how hostile they are to developers — with receipts.
 
-Maintained by [Brethof AI](https://brethof.com). The counterpart to the
+Maintained by [Brethof AI](https://brethof.ai). The counterpart to the
 [awesome-*](https://github.com/BrethofAI) family: instead of
 recommending tools, this list calls out the platforms and practices
 that punish developers and small teams.
@@ -448,5 +448,5 @@ move it to **Recently improved** and credit the receipt.
 
 ---
 
-Maintained by **[Brethof AI](https://brethof.com)** — AI tools built for
+Maintained by **[Brethof AI](https://brethof.ai)** — AI tools built for
 people who take their data seriously.
