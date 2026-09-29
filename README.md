@@ -56,7 +56,7 @@ through an app distributed via the App Store. The Epic Games v. Apple
 case, EU Digital Markets Act enforcement, and the UK CMA mobile
 ecosystem report all document the commercial harm to small developers.
 
-- **Receipts:** [App Store Review Guidelines §3.1.1](https://developer.apple.com/app-store/review/guidelines/#payments) · [EU DMA designation 2024](https://digital-markets-act.ec.europa.eu/gatekeepers/apple_en) · [Epic v. Apple opinion (2021, 9th Circuit affirmed 2023)](https://cand.uscourts.gov/wp-content/uploads/judges/yvonne-gonzalez-rogers-ygr/CV-20-05640-Epic-v-Apple-FoFCoL-and-Permanent-Injunction-9-10-21.pdf).
+- **Receipts:** [App Store Review Guidelines §3.1.1](https://developer.apple.com/app-store/review/guidelines/#payments) · [EU DMA gatekeeper designation (Sep 2023)](https://digital-markets-act.ec.europa.eu/gatekeepers-portal_en) · [Epic v. Apple Rule 52 order (2021; 9th Circuit affirmed in part, 2023)](https://storage.courtlistener.com/recap/gov.uscourts.cand.364265/gov.uscourts.cand.364265.812.0_6.pdf).
 - **Why S:** Decades-long enforcement, no realistic alternative store
   on iOS in most jurisdictions, and Apple's "core technology fee"
   response to the DMA preserves the same economics under a new name.
@@ -67,7 +67,7 @@ Same model as Apple's App Store, applied to Android. Google's
 position is operationally identical even as legal cases (Epic v.
 Google) have reduced their effective leverage on US Android.
 
-- **Receipts:** [Play Console payments policy](https://support.google.com/googleplay/android-developer/answer/9858738) · [Epic v. Google jury verdict (Dec 2023)](https://www.documentcloud.org/documents/24235617-epic-v-google-verdict-form).
+- **Receipts:** [Play Console payments policy](https://support.google.com/googleplay/android-developer/answer/9858738) · [Epic v. Google jury verdict (Dec 2023)](https://storage.courtlistener.com/recap/gov.uscourts.cand.364325/gov.uscourts.cand.364325.606.0.pdf).
 - **Why S:** Sideloading exists on Android but is not commercially
   practical for most consumer apps. Mandatory cut on most app revenue.
 
@@ -89,7 +89,7 @@ Since January 2023, Oracle's Java SE pricing is per-employee — every
 employee, not just Java developers. A 1,000-person company with one
 Java service pays for 1,000 seats.
 
-- **Receipts:** [Oracle Java SE Universal Subscription pricing](https://www.oracle.com/java/java-se-subscription/) · [The Register coverage](https://www.theregister.com/2023/01/26/oracle_java_pricing_change/) · [Gartner advisory](https://www.gartner.com/en/documents/4022030).
+- **Receipts:** [Oracle Java SE Universal Subscription pricing](https://www.oracle.com/java/java-se-subscription/) · [The Register coverage (27 Jan 2023)](https://www.theregister.com/2023/01/27/oracle_java_licensing_change/) · [Gartner estimate via The Register (Jul 2023)](https://www.theregister.com/2023/07/24/oracle_java_license_terms/).
 - **Why S:** Forces enterprises onto OpenJDK or migration. Punishes
   the install base for Oracle's revenue targets.
 
@@ -120,7 +120,7 @@ challenge legitimate developers, scrapers complying with `robots.txt`,
 and accessibility tooling. Hidden in many "free tier" defaults of
 sites Cloudflare protects.
 
-- **Receipts:** [HN thread: Cloudflare blocking 'curl' / Tor users (2024)](https://news.ycombinator.com/item?id=39271031) · [Cloudflare's own challenge-page docs](https://developers.cloudflare.com/waf/tools/challenge-passage/) · widely-reported false positives on Wayback Machine and assistive-tech browsers.
+- **Receipts:** [Cloudflare's Bot Fight Mode docs](https://developers.cloudflare.com/bots/get-started/bot-fight-mode/) · [Cloudflare's own challenge-passage docs](https://developers.cloudflare.com/cloudflare-challenges/challenge-types/challenge-pages/challenge-passage/) · widely-reported false positives on Wayback Machine and assistive-tech browsers.
 - **Why S:** Single point of failure for a large fraction of the
   public web. Asymmetric power: site owners enable it once, every
   developer who needs to consume the site pays the cost forever.
@@ -141,7 +141,7 @@ promising AGI "for the benefit of humanity," "broadly distributed,"
 By 2024-2026 OpenAI has restructured into a for-profit Public
 Benefit Corporation, with the non-profit losing its controlling
 stake. Co-founder lawsuit
-([Musk v. Altman](https://storage.courtlistener.com/recap/gov.uscourts.cand.428589/gov.uscourts.cand.428589.1.0.pdf))
+([Musk v. Altman](https://storage.courtlistener.com/recap/gov.uscourts.cand.433688/gov.uscourts.cand.433688.1.0.pdf))
 alleges breach of charter; the Sep 2024 OpenAI statement
 ([Why our structure must evolve](https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/))
 walks the original mission back. CEO Sam Altman, who took zero
@@ -164,7 +164,7 @@ deleting tens of thousands of student projects, demos, and
 small-traffic prototypes. The de facto on-ramp for a generation of
 beginners disappeared.
 
-- **Receipts:** [Heroku blog announcement (Aug 2022)](https://blog.heroku.com/next-chapter) · [Hacker News reaction](https://news.ycombinator.com/item?id=32741636).
+- **Receipts:** [Heroku blog announcement (Aug 2022)](https://www.heroku.com/blog/next-chapter/) · [Hacker News reaction](https://news.ycombinator.com/item?id=32623713).
 - **Why A:** Years of public goodwill burned for short-term cost
   savings. Trust loss across the developer community.
 
@@ -175,7 +175,7 @@ bills triggered by traffic spikes — Vercel's only recourse is "open a
 support ticket". A single viral page or scraper attack can bankrupt a
 side project.
 
-- **Receipts:** [HN: Vercel charged me $96K (Jan 2025)](https://news.ycombinator.com/item?id=39059900) · [Vercel pricing model](https://vercel.com/docs/limits/usage).
+- **Receipts:** [HN: artist app Cara hit with a $96K Vercel bill (Jun 2024)](https://news.ycombinator.com/item?id=40612981) · [Vercel pricing model](https://vercel.com/docs/limits/usage).
 - **Why A:** No hard cap option. Pricing model exposes hobbyists to
   unbounded liability for traffic they didn't request.
 
@@ -186,7 +186,7 @@ named like popular ones (`lodahs` for `lodash`, etc.) to publish
 freely. Documented incidents: `event-stream` (2018), `colors.js` /
 `faker.js` rage-publishes (2022), `node-ipc` wartime sabotage (2022).
 
-- **Receipts:** [event-stream postmortem (2018)](https://github.com/dominictarr/event-stream/issues/116) · [colors.js / faker.js deletion (2022)](https://research.snyk.io/blog/open-source-npm-packages-colors-faker) · [node-ipc protestware (2022)](https://snyk.io/blog/peacenotwar-malicious-npm-node-ipc-package-vulnerability/).
+- **Receipts:** [event-stream postmortem (2018)](https://github.com/dominictarr/event-stream/issues/116) · [colors.js / faker.js deletion (2022)](https://snyk.io/blog/open-source-npm-packages-colors-faker/) · [node-ipc protestware (2022)](https://snyk.io/blog/peacenotwar-malicious-npm-node-ipc-package-vulnerability/).
 - **Why A:** Single dependency typo can compromise entire
   organisations. Years-long pattern with structural fixes still
   pending.
@@ -198,7 +198,7 @@ code that included permissively-licensed (MIT, BSD) and copyleft
 (GPL) code, then offered as a paid product without crediting authors.
 Pending class-action: *Doe v. GitHub*.
 
-- **Receipts:** [Doe v. GitHub class action complaint](https://githubcopilotlitigation.com/) · [Anti-AGPL legal analysis](https://docs.fsf.org/copilot/copilot.html).
+- **Receipts:** [Doe v. GitHub class action complaint](https://githubcopilotlitigation.com/) · [FSF-funded white papers on Copilot (Feb 2022)](https://www.fsf.org/news/publication-of-the-fsf-funded-white-papers-on-questions-around-copilot).
 - **Why A:** Set the precedent that public source code is training
   fodder regardless of license. Industry-wide consequences.
 
@@ -209,7 +209,7 @@ per-API-call when accessed programmatically, and surfaces real
 spending only after a 24-hour delay. Designed to make cost surprises
 land late.
 
-- **Receipts:** [AWS Cost Explorer pricing](https://aws.amazon.com/aws-cost-management/pricing/) · widely-discussed pattern; see [r/aws](https://www.reddit.com/r/aws) bill-shock threads weekly.
+- **Receipts:** [AWS Cost Explorer pricing](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/pricing/) · widely-discussed pattern; see [r/aws](https://www.reddit.com/r/aws) bill-shock threads weekly.
 - **Why A:** Active design choice to delay cost feedback. Surprise
   bills are a feature, not a bug, of this UX.
 
@@ -219,7 +219,7 @@ Slack's API tier system collapses functionality at low limits for
 free / standard plans, with deprecation cycles that break working
 integrations on six-month notice.
 
-- **Receipts:** [Slack rate limits docs](https://api.slack.com/docs/rate-limits) · [2024 message-history cap on free plans](https://slack.com/blog/news/changes-to-the-slack-free-plan).
+- **Receipts:** [Slack rate limits docs](https://docs.slack.dev/apis/web-api/rate-limits/) · [Free-plan limits: 90-day history, deletion after one year from Aug 2024](https://slack.com/help/articles/27204752526611-Feature-limitations-on-the-free-version-of-Slack).
 - **Why A:** Mature integrations break on a vendor's whim, often with
   no commercial path to restore behaviour beyond the highest tier.
 
@@ -234,7 +234,7 @@ incompatible formats and resolution algorithms. Switching package
 managers requires re-resolving the entire dependency graph and can
 silently produce a different runtime.
 
-- **Receipts:** [pnpm vs npm comparison](https://pnpm.io/feature-comparison) · [yarn berry migration guide](https://yarnpkg.com/getting-started/migration).
+- **Receipts:** [pnpm vs npm comparison](https://pnpm.io/feature-comparison) · [yarn berry migration guide](https://yarnpkg.com/migration/overview).
 - **Why B:** Wastes CI minutes and onboarding time across the
   ecosystem. Each manager solves a real problem, but no migration
   story is clean.
@@ -265,7 +265,7 @@ Both have a pattern of suspending accounts on automated fraud
 heuristics with limited recourse. Side projects with low MRR are
 disproportionately affected.
 
-- **Receipts:** [Twilio suspension threads on HN](https://news.ycombinator.com/item?id=23937720) · [SendGrid sender-reputation policy](https://docs.sendgrid.com/ui/sending-email/sender-identity).
+- **Receipts:** [HN: Twilio suspended account because someone sent us a fraud text (2022)](https://news.ycombinator.com/item?id=29826725) · [SendGrid account-review policy](https://www.twilio.com/docs/sendgrid/ui/account-and-settings/account-under-review).
 - **Why B:** Loss of email or SMS infrastructure mid-launch is
   catastrophic. Reinstatement is human-judgement-driven.
 
@@ -275,7 +275,7 @@ Server-tier sunset (Feb 2024) forced on-prem Jira / Confluence
 customers into Cloud or Data Center, with the latter at multiples of
 the prior price. Pattern of pricing changes with short windows.
 
-- **Receipts:** [Atlassian Server EoL announcement](https://www.atlassian.com/migration/journey-to-cloud) · [Data Center pricing](https://www.atlassian.com/licensing/jira-software-data-center).
+- **Receipts:** [Atlassian Server end of support](https://www.atlassian.com/licensing/server-end-of-support) · [Data Center licensing](https://www.atlassian.com/licensing/data-center).
 - **Why B:** Migration costs are real but bounded; ecosystem accepts
   Atlassian's pricing drift as fact.
 
@@ -289,7 +289,7 @@ Annual subscription with a fallback license for the version available
 12 months after first payment. Stop paying, lose new versions and
 plugin compatibility.
 
-- **Receipts:** [JetBrains licensing model](https://www.jetbrains.com/store/comparison.html) · [perpetual fallback licence terms](https://sales.jetbrains.com/hc/en-gb/articles/207240845).
+- **Receipts:** [JetBrains licensing model](https://www.jetbrains.com/store/comparison/) · [perpetual fallback licence terms](https://sales.jetbrains.com/hc/en-gb/articles/207240845).
 - **Why C:** Better than pure SaaS rent (you keep the version you
   paid for) but the practical lock to current-version plugins makes
   the fallback aspirational.
@@ -311,7 +311,7 @@ Running `npm audit` on a typical production project surfaces dozens
 of low-severity warnings — most of them in transitive dev
 dependencies, unfixable from your `package.json`.
 
-- **Receipts:** [npm audit fix limitations](https://docs.npmjs.com/cli/v9/commands/npm-audit) · [Dan Abramov on audit noise (2021)](https://overreacted.io/npm-audit-broken-by-design/).
+- **Receipts:** [npm audit fix limitations](https://docs.npmjs.com/cli/v9/commands/npm-audit/) · [Dan Abramov on audit noise (2021)](https://overreacted.io/npm-audit-broken-by-design/).
 - **Why C:** CI pipelines block on this routinely; signal-to-noise
   ratio damages real vulnerability awareness.
 
@@ -321,7 +321,7 @@ Major version bumps every 18-24 months that require non-trivial
 migration: server components, app-router, suspense semantics, RSC
 data-fetching idioms. Each major reorganises the canonical example.
 
-- **Receipts:** [Next.js 13 → 14 → 15 changelogs](https://nextjs.org/blog) · [React 19 RC notes](https://react.dev/blog/2024/12/05/react-19).
+- **Receipts:** [Next.js 13 → 14 → 15 changelogs](https://nextjs.org/blog) · [React 19 release post (Dec 2024)](https://react.dev/blog/2024/12/05/react-19).
 - **Why C:** Every rewrite is "the right way". The previous "right way"
   becomes "legacy" within a release.
 
@@ -331,7 +331,7 @@ Mandatory upgrade from Manifest V2 to V3 dropped key APIs (notably
 `webRequestBlocking`) used by ad-blockers. Long migration with
 ambiguous deadlines, multiple delays.
 
-- **Receipts:** [Manifest V3 transition timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) · [EFF analysis (2024)](https://www.eff.org/deeplinks/2024/05/end-near-manifest-v2-extensions).
+- **Receipts:** [Manifest V3 transition timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) · [EFF analysis (Dec 2021)](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening).
 - **Why C:** Extension authors have been on a five-year migration
   treadmill with the rules changing under them.
 
@@ -344,7 +344,7 @@ ambiguous deadlines, multiple delays.
 `@types/foo` with no actual code, claimed names with placeholder
 publish histories, parking common-word packages.
 
-- **Receipts:** [npm name squatting policy](https://docs.npmjs.com/policies/dispute-resolution-and-takedowns).
+- **Receipts:** [npm name squatting policy](https://docs.npmjs.com/policies/disputes/).
 - **Why D:** Rare but visible. Resolution path exists, just slow.
 
 ### "We're hiring engineers!" on every blog post that's actually about a feature
@@ -386,7 +386,7 @@ The recurring pattern: Mongo (SSPL, 2018), Redis (SSPL/RSAL,
 2021). Companies adopt source-available licences after years of
 permissive distribution.
 
-- **Receipts:** [HashiCorp BSL announcement (2023)](https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license) · [Redis license change (2024)](https://redis.io/blog/redis-adopts-dual-source-available-licensing/) · [Mongo SSPL (2018)](https://www.mongodb.com/licensing/server-side-public-license).
+- **Receipts:** [HashiCorp BSL announcement (2023, archived)](https://web.archive.org/web/20250129115756/https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license) · [Redis license change (2024)](https://redis.io/blog/redis-adopts-dual-source-available-licensing/) · [Mongo SSPL (2018)](https://www.mongodb.com/legal/licensing/server-side-public-license).
 - **Why F:** The pattern is now expected. Forks (OpenTofu,
   RedictDB / Valkey) emerge each time. Self-defeating in the long run.
 
@@ -396,7 +396,7 @@ June 2023: Reddit announced API pricing that effectively shut down
 Apollo, Reddit Sync, Reddit is Fun. Apollo developer's published
 costs: $20M/year if they accepted Reddit's terms.
 
-- **Receipts:** [Apollo developer's farewell post](https://apolloapp.io/) · [Reddit's official pricing announcement](https://www.redditinc.com/blog/2023apiupdates).
+- **Receipts:** [Apollo developer's farewell post](https://apolloapp.io/) · [Reddit's API access announcement (Apr 2023)](https://redditinc.com/news/2023apiupdates).
 - **Why F:** The community rejection (subreddit blackout, mod
   resignations) was historic but didn't reverse the policy. Reddit
   IPO'd anyway.
