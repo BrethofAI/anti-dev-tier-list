@@ -93,38 +93,6 @@ Java service pays for 1,000 seats.
 - **Why S:** Forces enterprises onto OpenJDK or migration. Punishes
   the install base for Oracle's revenue targets.
 
-### Google AI Ultra (USD 300/month) bans paying customers without explanation
-
-Top consumer tier of Google's AI subscription. Includes Antigravity
-(Google's agentic IDE). Documented pattern from early 2026:
-subscribers receiving **permanent ("life") bans** with no reason
-supplied, no human appeal, and no pro-rata refund on cancellation.
-Triggers appear to include unusual working hours, sustained heavy
-use of agentic features, and prompt patterns flagged by undocumented
-classifiers. Marketed with "enterprise security" language while
-operating an automated ban-bot tuned to behavioural fingerprints —
-the marketing and the practice cannot both be true.
-
-- **Receipts:** Volume of YouTube + Reddit reports peaked Feb 2026.
-  Search "Google AI Ultra ban" or "Antigravity banned" for the
-  pattern. Direct user data point documented by Brethof AI
-  ([awesome-ai-minefield entry](https://github.com/BrethofAI/awesome-ai-minefield#google-antigravity--antigravity-terms-of-service-)).
-- **Why S:** Top-tier paying customers losing access to their work
-  with no recourse, on a product priced at the enterprise level. The
-  combination of paid status + opacity + no refund is the trifecta.
-
-### Cloudflare WAF / Bot Fight Mode false-positive lockouts
-
-Cloudflare's Bot Fight Mode and certain WAF rule packs aggressively
-challenge legitimate developers, scrapers complying with `robots.txt`,
-and accessibility tooling. Hidden in many "free tier" defaults of
-sites Cloudflare protects.
-
-- **Receipts:** [Cloudflare's Bot Fight Mode docs](https://developers.cloudflare.com/bots/get-started/bot-fight-mode/) · [Cloudflare's own challenge-passage docs](https://developers.cloudflare.com/cloudflare-challenges/challenge-types/challenge-pages/challenge-passage/) · widely-reported false positives on Wayback Machine and assistive-tech browsers.
-- **Why S:** Single point of failure for a large fraction of the
-  public web. Asymmetric power: site owners enable it once, every
-  developer who needs to consume the site pays the cost forever.
-
 ---
 
 ## Tier A — Very Harmful
@@ -144,12 +112,9 @@ stake. Co-founder lawsuit
 ([Musk v. Altman](https://storage.courtlistener.com/recap/gov.uscourts.cand.433688/gov.uscourts.cand.433688.1.0.pdf))
 alleges breach of charter; the Sep 2024 OpenAI statement
 ([Why our structure must evolve](https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/))
-walks the original mission back. CEO Sam Altman, who took zero
-equity in the original non-profit, is now reported as a billionaire
-on OpenAI's growth.
+walks the original mission back.
 
-- **Receipts:** Side-by-side comparison in the
-  [awesome-ai-minefield OpenAI entry](https://github.com/BrethofAI/awesome-ai-minefield#openai-api--api-services-agreement-2025).
+- **Receipts:** linked inline above.
 - **Why A:** Sets the precedent. Charity-to-for-profit pivots used
   to be a scandal; if OpenAI normalises it, every "AI for humanity"
   pitch raised against the next AGI cycle is on the clock. The harm
@@ -269,6 +234,19 @@ disproportionately affected.
 - **Why B:** Loss of email or SMS infrastructure mid-launch is
   catastrophic. Reinstatement is human-judgement-driven.
 
+### Cloudflare Bot Fight Mode challenges
+
+Bot Fight Mode is a free, one-toggle Cloudflare product that issues
+computationally expensive challenges to traffic matching known bot
+patterns. Cloudflare's own docs say it cannot be customised, adjusted,
+or reconfigured via WAF custom rules, and that it may challenge API or
+mobile app traffic.
+
+- **Receipts:** [Cloudflare's Bot Fight Mode docs](https://developers.cloudflare.com/bots/get-started/bot-fight-mode/) · [Cloudflare's own challenge-passage docs](https://developers.cloudflare.com/cloudflare-challenges/challenge-types/challenge-pages/challenge-passage/).
+- **Why B:** Asymmetric cost: the site owner turns it on once, every
+  developer whose legitimate tooling consumes the site pays the
+  friction, and the owner cannot carve out exceptions with custom rules.
+
 ### Atlassian price hikes + product end-of-life cycles
 
 Server-tier sunset (Feb 2024) forced on-prem Jira / Confluence
@@ -347,24 +325,6 @@ publish histories, parking common-word packages.
 - **Receipts:** [npm name squatting policy](https://docs.npmjs.com/policies/disputes/).
 - **Why D:** Rare but visible. Resolution path exists, just slow.
 
-### "We're hiring engineers!" on every blog post that's actually about a feature
-
-Recruiting funnel masquerading as technical content. Visible in vendor
-engineering blogs across the industry.
-
-- **Receipts:** Pattern observable on most major vendor blogs.
-- **Why D:** Mild irritation. Free content is still free.
-
-### "Login with Google" + email verification + SMS verification + captcha + AppCheck
-
-Five-factor signup gauntlets on consumer products, justified as fraud
-prevention but applied to read-only browsing.
-
-- **Receipts:** Common pattern on YouTube comments, X verification,
-  Indian / SE-Asian fintech apps.
-- **Why D:** Friction tax on consumers, but developers building
-  sane signup flows can avoid the trap themselves.
-
 ---
 
 ## Tier F — So Bad It's a Meme
@@ -416,8 +376,6 @@ domains.google (2024 → Squarespace transfer). The
 
 ## Recently improved (off the list)
 
-- **Discord no longer shows public emails on bot profiles** (fixed early 2024). Used to leak bot owner email addresses.
-- **GitHub Copilot opt-out for code training** (added Dec 2022). Was the reason it sat in Tier A; now opt-out is straightforward.
 - **AWS S3 free egress for first 100 GB** (added Dec 2024). Did not move AWS off the egress entry, but acknowledged.
 
 ## Contributing
