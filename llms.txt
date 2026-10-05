@@ -1,0 +1,9 @@
+# anti-dev-tier-list
+
+> A tier list ranking platforms, APIs, and policies by their hostility to developers, featuring documented evidence for each entry.
+
+The project is a static list maintained by Brethof AI that categorizes developer-hostile practices into tiers S through F. It includes specific entries for platforms like Apple, Oracle, Google, AWS, and OpenAI, each supported by linked source evidence such as legal filings and official documentation.
+
+## Docs
+
+- [anti-dev-tier-list](https://raw.githubusercontent.com/BrethofAI/anti-dev-tier-list/main/README.md): S–F tier list of developer-hostile platforms, APIs, and policies, with source evidence and tier definitions.
